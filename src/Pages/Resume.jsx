@@ -16,7 +16,7 @@ export default function Resume() {
   const handleDownloadResume = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/src/Assets/OmkarNarkarResume.pdf'; // Update this path to your PDF location
+    link.href = '/OmkarNarkarResume.pdf'; // Update this path to your PDF location
     link.download = 'Omkar_Narkar_Resume.pdf';
     document.body.appendChild(link);
     link.click();

@@ -112,7 +112,7 @@ export default function About() {
             <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-2xl">
               {!imageError ? (
                 <img 
-                  src="/src/Assets/me.jpg" 
+                  src="/me.jpg" 
                   alt="Omkar Narkar - Full Stack Developer"
                   className="w-full h-full object-cover"
                   onError={() => setImageError(true)}

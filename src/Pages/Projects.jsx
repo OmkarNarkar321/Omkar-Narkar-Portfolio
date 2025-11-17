@@ -35,7 +35,7 @@ export default function Projects() {
       gradient: 'from-orange-500 to-red-500',
       liveLink: '#', // Add your actual link
       githubLink: '#', // Add your actual link
-      image: '/src/Assets/projects/ecommerce.jpg', // Add your project image here
+      image: '/ecommerce.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
@@ -60,7 +60,7 @@ export default function Projects() {
       gradient: 'from-cyan-500 to-blue-500',
       liveLink: '#',
       githubLink: '#',
-      image: '/src/Assets/projects/careerconnect.jpg', // Add your project image here
+      image: '/careerconnect.jpg', // Add your project image here
       status: 'In Development',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -86,7 +86,7 @@ export default function Projects() {
       gradient: 'from-green-500 to-emerald-500',
       liveLink: 'https://brand-tracker-pearl.vercel.app/',
       githubLink: 'https://github.com/OmkarNarkar321/Brand-Reputation-Tracker',
-      image: '/src/assets/BrandTracker.jpg', // Add your project image here
+      image: '/BrandTracker.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -111,7 +111,7 @@ export default function Projects() {
       gradient: 'from-yellow-500 to-orange-500',
       liveLink: '#',
       githubLink: 'https://github.com/OmkarNarkar321/Omkar-Narkar-Portfolio',
-      image: '/src/assets/OmkarPortfolio.jpg', // Add your project image here
+      image: '/OmkarPortfolio.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
@@ -136,7 +136,7 @@ export default function Projects() {
       gradient: 'from-purple-500 to-pink-500',
       liveLink: 'https://small-react-projects-beta.vercel.app/',
       githubLink: 'https://github.com/OmkarNarkar321/Small-React-Projects',
-      image: '/src/assets/shoestore.jpg', // Add your project image here
+      image: '/shoestore.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -161,7 +161,7 @@ export default function Projects() {
       gradient: 'from-blue-500 to-indigo-500',
       liveLink: 'https://small-react-projects-beta.vercel.app/',
       githubLink: 'https://github.com/OmkarNarkar321/Small-React-Projects',
-      image: '/src/assets/todolistreact.jpg', // Add your project image here
+      image: '/todolistreact.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
@@ -186,7 +186,7 @@ export default function Projects() {
       gradient: 'from-indigo-500 to-purple-500',
       liveLink: 'https://small-react-projects-beta.vercel.app/',
       githubLink: 'https://github.com/OmkarNarkar321/Small-React-Projects',
-      image: '/src/assets/reactcounterapp.jpg', // Add your project image here
+      image: '/reactcounterapp.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
@@ -211,7 +211,7 @@ export default function Projects() {
       gradient: 'from-pink-500 to-rose-500',
       liveLink: 'https://to-do-list-five-pearl-24.vercel.app/',
       githubLink: 'https://github.com/OmkarNarkar321/pure-js-To-Do-List-app',
-      image: '/src/assets/JsToDoList.jpg', // Add your project image here
+      image: '/JsToDoList.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -236,7 +236,7 @@ export default function Projects() {
       gradient: 'from-red-500 to-orange-500',
       liveLink: 'https://to-do-list-using-react-navy.vercel.app/',
       githubLink: 'https://github.com/OmkarNarkar321/pure-js-counter-app',
-      image: '/src/assets/JsCounterapp.jpg', // Add your project image here
+      image: '/JsCounterapp.jpg', // Add your project image here
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
