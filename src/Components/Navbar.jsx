@@ -30,13 +30,19 @@ export function StickyNavbar() {
     };
   }, []);
 
+  const handleNavClick = (href) => {
+    setOpenNav(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.location.href = href;
+  };
+
   const navItems = [
-    { name: "About", href: "/about", isHome: false },
-    { name: "Resume", href: "/resume", isHome: false },
-    { name: "Experience", href: "/experience", isHome: false },
-    { name: "Projects", href: "/projects", isHome: false },
-    { name: "Services", href: "/services", isHome: false },
-    { name: "Contact", href: "/contact", isHome: false },
+    { name: "About", href: "/about" },
+    { name: "Resume", href: "/resume" },
+    { name: "Experience", href: "/experience" },
+    { name: "Projects", href: "/projects" },
+    { name: "Services", href: "/services" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const textColor = 'hsla(39, 93%, 95%, 1)';
@@ -56,7 +62,11 @@ export function StickyNavbar() {
           <div className="flex-shrink-0">
             <a
               href="/"
-              className="text-2xl font-bold transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick('/');
+              }}
+              className="text-2xl sm:text-3xl font-bold transition-colors"
               style={{ 
                 color: textColor,
                 fontFamily: "'DM Serif Display', serif"
@@ -69,12 +79,16 @@ export function StickyNavbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium transition-colors relative group hover:text-orange-500"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick(item.href);
+                }}
+                className="text-sm lg:text-base font-medium transition-colors relative group hover:text-orange-500"
                 style={{ color: textColor }}
               >
                 {item.name}
@@ -128,7 +142,7 @@ export function StickyNavbar() {
       {/* Mobile menu */}
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ${
-          openNav ? "max-h-96" : "max-h-0"
+          openNav ? "max-h-[500px]" : "max-h-0"
         }`}
       >
         <div className="px-4 pt-4 pb-6 space-y-2 bg-[#1a1a1a]/95 backdrop-blur-md shadow-lg rounded-b-2xl mt-2 mx-4 border border-white/10">
@@ -136,7 +150,10 @@ export function StickyNavbar() {
             <a
               key={item.name}
               href={item.href}
-              onClick={() => setOpenNav(false)}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick(item.href);
+              }}
               className="block px-4 py-3 rounded-lg hover:bg-white/5 hover:text-orange-500 font-medium transition-all"
               style={{ color: textColor }}
             >
