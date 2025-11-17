@@ -169,7 +169,7 @@ export default function Home() {
                   
                   {!imageError ? (
                     <img 
-                    src="/src/Assets/me.jpg" 
+                    src="/me.jpg" 
                     alt="Omkar Narkar - Full Stack Developer"
                     className="w-full h-full object-cover transition-all duration-700 relative z-10"
                     onError={() => setImageError(true)}
