@@ -109,7 +109,7 @@ export default function Projects() {
       ],
       color: 'yellow',
       gradient: 'from-yellow-500 to-orange-500',
-      liveLink: '#',
+      liveLink: 'https://omkar-narkar.vercel.app/',
       githubLink: 'https://github.com/OmkarNarkar321/Omkar-Narkar-Portfolio',
       image: '/OmkarPortfolio.jpg', // Add your project image here
       icon: (
